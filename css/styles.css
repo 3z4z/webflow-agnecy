@@ -34,7 +34,8 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-button {
+button,
+input[type="submit"] {
   cursor: pointer;
 }
 
@@ -177,11 +178,6 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.subscription-section h2 {
-  font-size: 97px;
-  line-height: 120%;
-}
-
 /* ================= */
 
 /* user review styles */
@@ -252,4 +248,50 @@ nav {
 
 .focus-img img {
   border-radius: 48px;
+}
+
+/* =================== */
+
+/* newsletter styles */
+
+.newsletter-wrap h2 {
+  font-size: 97px;
+  line-height: 120%;
+}
+
+.newsletter-wrap {
+  width: 55%;
+}
+
+.newsletter {
+  margin: 150px 0 110px;
+  display: flex;
+  gap: 115px;
+  align-items: center;
+}
+
+form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
+  font-family: "Inter", sans-serif;
+  padding: 20px 32px;
+  font-size: 20px;
+  line-height: 150%;
+  border-radius: 10px;
+  border: 1px solid #f2eded;
+  outline: none;
+  margin-bottom: 20px;
 }
