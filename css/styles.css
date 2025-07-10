@@ -339,6 +339,14 @@ a {
   justify-content: space-evenly;
 }
 
+.footer-content a {
+  transition: all 0.15s;
+}
+
+.footer-content ul li:hover a {
+  color: #4e47ff;
+}
+
 .footer-logo {
   font-family: "Inter", sans-serif;
   font-size: 100px;
