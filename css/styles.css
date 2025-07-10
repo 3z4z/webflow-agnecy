@@ -21,9 +21,15 @@ h3 {
   font-size: 42px;
 }
 
+h5 {
+  font-size: 24px;
+}
+
 h1,
 h2,
 h3,
+h5,
+h6,
 p {
   font-family: "Raleway", sans-serif;
 }
@@ -163,7 +169,7 @@ nav {
   text-align: center;
   display: flex;
   justify-content: center;
-  gap: 160px;
+  gap: 0 160px;
 }
 
 .stat-box h4 {
@@ -174,4 +180,76 @@ nav {
 .subscription-section h2 {
   font-size: 97px;
   line-height: 120%;
+}
+
+/* ================= */
+
+/* user review styles */
+
+.user-reviews {
+  margin: 130px 0;
+}
+
+.reviews-wrap {
+  margin-top: 50px;
+  display: flex;
+  gap: 0 20px;
+}
+
+.user-review {
+  width: calc(100% / 3);
+  background-color: #ffffff8a;
+  border-radius: 14px;
+  padding: 24px;
+  border: 1px solid #f2eded;
+}
+
+.user-reviews h3 {
+  text-align: center;
+}
+
+.user-review h5 {
+  margin-bottom: 12px;
+}
+
+.user-review h5,
+.reviewer-info {
+  margin-top: 24px;
+}
+
+.reviewer-info {
+  display: flex;
+}
+
+.reviewer-info .reviewer-img {
+  margin-right: 12px;
+}
+
+.reviewer-img img {
+  border-radius: 50%;
+}
+
+.reviewer-detail p.name {
+  margin-bottom: 2px;
+}
+
+/* ============ */
+
+.focus {
+  padding: 70px 0;
+  text-align: center;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.focus p {
+  margin: 20px 0 24px;
+}
+
+.focus button {
+  margin-bottom: 24px;
+}
+
+.focus-img img {
+  border-radius: 48px;
 }
