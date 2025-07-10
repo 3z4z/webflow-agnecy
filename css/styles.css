@@ -28,6 +28,10 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -46,6 +50,15 @@ body {
   border: none;
   outline: none;
   line-height: 150%;
+  transition: all 0.15s;
+}
+
+.btn-primary:hover {
+  background-color: #2e29c0;
+}
+
+.btn-primary:active {
+  background-color: #1d1a8f;
 }
 
 .text-primary {
@@ -115,7 +128,7 @@ nav {
 
 /* action styles */
 .action {
-  margin: 110px 0;
+  margin: 120px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,16 +145,33 @@ nav {
   max-width: 510px;
 }
 
-/* .track-record h3 {
-    font-size: 38px;
+/* achievements styles */
+
+.achievement-record {
+  padding: 50px 0;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
 }
 
-.track-record h4 {
-    font-size: 80px;
-    font-family: "Inter", sans-serif;
+.achievement-record h3 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.stats-wrap {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.stat-box h4 {
+  font-size: 80px;
+  font-family: "Inter", sans-serif;
 }
 
 .subscription-section h2 {
-    font-size: 97px;
-    line-height: 120%;
-} */
+  font-size: 97px;
+  line-height: 120%;
+}
