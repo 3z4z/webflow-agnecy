@@ -57,6 +57,7 @@ body {
   padding: 12px 36px;
   border-radius: 10px;
   color: #fff;
+  font-weight: 700;
   border: none;
   outline: none;
   line-height: 150%;
@@ -296,6 +297,11 @@ form textarea {
   border: 1px solid #f2eded;
   outline: none;
   margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 form textarea {
